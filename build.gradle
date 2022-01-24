@@ -59,9 +59,9 @@ allprojects {
 
     repositories {
         jcenter()
-        maven {
-            url "file://$sdkDir/extras/android/m2repository/"
-        }
+//        maven {
+//            url "file://$sdkDir/extras/android/m2repository/"
+//        }
         google()
     }
 
