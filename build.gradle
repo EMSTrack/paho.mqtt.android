@@ -16,7 +16,7 @@ buildscript {
 ext{
 
     compileSdkVersion = 31
-    buildToolsVersion = '23.0.3'
+    buildToolsVersion = '30.0.2'
 
 
     group = 'org.eclipse.paho'

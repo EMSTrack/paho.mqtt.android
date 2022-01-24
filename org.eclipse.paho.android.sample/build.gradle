@@ -20,9 +20,9 @@ android {
     lintOptions {
         abortOnError false
     }
-    dexOptions {
-        preDexLibraries = false
-    }
+//    dexOptions {
+//        preDexLibraries = false
+//    }
 }
 
 repositories {

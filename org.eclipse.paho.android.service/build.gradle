@@ -18,9 +18,9 @@ android {
         }
     }
 
-    dexOptions {
-        preDexLibraries = false
-    }
+//    dexOptions {
+//        preDexLibraries = false
+//    }
 
     lintOptions {
         abortOnError false
