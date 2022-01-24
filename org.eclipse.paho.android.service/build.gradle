@@ -89,6 +89,19 @@ dependencies {
 //    classifier = 'javadoc'
 //}
 //
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+                groupId = 'paho.mqtt.android'
+                artifactId = 'org.eclipse.paho.android.service'
+                version = 'android12-SNAPSHOT'
+            }
+        }
+    }
+}
 //publishing {
 //    publications {
 //        paho(MavenPublication) {
